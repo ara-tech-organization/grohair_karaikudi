@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Header</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="contact-info">
+            <i class="fas fa-envelope"></i> info@louisvillebeautysalon.com
+        </div>
+        <div class="contact-phone">
+            <i class="fas fa-phone"></i> +654 555555
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="logo"><img src="./img/logo.jpg" alt="Logo" width="150px"></div>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-left">
+            <h1>Mobile Massage And Beauty – In Your Home, Hotel Or Office</h1>
+            <p>Book professional massage & beauty therapists that come to you. Same day or in advance, <span>7 days a
+                    week</span>, 8am to midnight.</p>
+            <div class="d-flex">
+                <a href="#" class="btn btn-primary">Book Now</a>
+                <a href="#" class="btn btn-outline-dark">Buy as a Gift</a>
+            </div>
+            <small class="text-muted mt-3 d-block">Qualified and highly skilled providers, all screened in
+                advance.</small>
+        </div>
+        <div class="hero-right">
+            <img src="./img/Group 9.png" alt="Hero Image">
+        </div>
+    </div>
+    <!-- Hero Ends -->
+
+    <!-- About section starts -->
+    <section class="spa-section">
+        <div class="spa-container">
+            <!-- Left Image with Brown Box -->
+            <div class="spa-image-box">
+                <div class="image-wrapper">
+                    <img src="./img/about-img.png" alt="Spa Treatment" />
+                </div>
+            </div>
+
+            <!-- Right Content -->
+            <div class="spa-content">
+                <p class="sub-title">We Provide</p>
+                <h2>Welcome to Spa Center</h2>
+                <p class="intro">
+                    Spread over two floors, our beautiful spa offer a soothing environment
+                    in which you can rest, relax and feel completely rejuvenated.
+                </p>
+                <p class="description">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It was popularised in the 1960s with the release of Letraset sheets.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- About ends -->
+
+    <section class="services-intro">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="lead">
+                Spread over two floors, our beautiful spa offers a soothing environment in which you can rest, relax and
+                feel completely rejuvenated.
+            </p>
+            <p class="desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s...
+            </p>
+
+            <div class="services-icons">
+                <div class="service-icon active">
+                    <img src="./img/icons/massage 1.png" alt="Spa" />
+                    <p>Spa</p>
+                </div>
+                <div class="service-icon">
+                    <img src="./img/icons/massage 2.png" alt="Hair Makeup" />
+                    <p>Hair Makeup</p>
+                </div>
+                <div class="service-icon">
+                    <img src="./img/icons/massage 3.png" alt="Waxing" />
+                    <p>Waxing</p>
+                </div>
+                <div class="service-icon">
+                    <img src="./img/icons/massage 4.png" alt="Facial" />
+                    <p>Facial</p>
+                </div>
+                <div class="service-icon">
+                    <img src="./img/icons/massage 5.png" alt="Massage" />
+                    <p>Massage</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service starts -->
+    <section class="popular-treatments py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <h3 style="text-align: center; margin-bottom: 30px;">Skin Treatments</h3>
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <p class="text-muted small">Popular on Growhair</p>
+                    <h2 class="mb-3 fw-semibold">Our Most Popular Treatments</h2>
+                    <p class="text-muted">Book professional massage & beauty therapists that come to you. Same day or in
+                        advance, <span class="text-danger fw-medium">7 days a week</span>, 6am to midnight.</p>
+
+                    <!-- Navigation Arrows -->
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="treatments-prev btn btn-outline-light border">
+                            <</button>
+                                <button class="treatments-next btn btn-outline-light border">></button>
+                    </div>
+                </div>
+
+                <!-- RIGHT CARDS SLIDER -->
+                <div class="col-lg-8">
+                    <div class="swiper popularSwiper">
+                        <div class="swiper-wrapper">
+
+                            <!-- CARD 1 -->
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/11.png" class="img-fluid" alt="Massage 1">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Remedial massage</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+
+                            <!-- CARD 2 -->
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/22.png" class="img-fluid" alt="Makeup">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Hair & makeup packages</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+
+                            <!-- CARD 3 -->
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/33.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/44.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/11.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-slide treatment-card">
+                                <img src="assets/images/skin-brightning.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div> -->
+                            <!-- <div class="swiper-slide treatment-card">
+                                <img src="assets/images/rf.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide treatment-card">
+                                <img src="assets/images/botox.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-treatments py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <h3 style="text-align: center; margin-bottom: 30px;">Hair Treatments</h3>
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <p class="text-muted small">Popular on Growhair</p>
+                    <h2 class="mb-3 fw-semibold">Our Most Popular Treatments</h2>
+                    <p class="text-muted">Book professional massage & beauty therapists that come to you. Same day or in
+                        advance, <span class="text-danger fw-medium">7 days a week</span>, 6am to midnight.</p>
+
+                    <!-- Navigation Arrows -->
+                    <div class="d-flex gap-2 mt-4">
+                        <button class="treatments-prev btn btn-outline-light border">
+                            <</button>
+                                <button class="treatments-next btn btn-outline-light border">></button>
+                    </div>
+                </div>
+
+                <!-- RIGHT CARDS SLIDER -->
+                <div class="col-lg-8">
+                    <div class="swiper popularSwiper">
+                        <div class="swiper-wrapper">
+
+                            <!-- CARD 1 -->
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/1.png" class="img-fluid" alt="Massage 1">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Remedial massage</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+
+                            <!-- CARD 2 -->
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/2.png" class="img-fluid" alt="Makeup">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Hair & makeup packages</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+
+                            <!-- CARD 3 -->
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/3.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/4.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/5.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/6.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide treatment-card">
+                                <img src="./img/7.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="text-primary fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-slide treatment-card">
+                                <img src="assets/images/botox.png" class="img-fluid" alt="Facial">
+                                <div class="card-body p-3">
+                                    <h5 class="fw-semibold">Signature facial</h5>
+                                    <p class="text-muted small mb-2">A strong treatment targeting day-to-day aches and
+                                        chronic pain.</p>
+                                    <a href="#" class="fw-medium">BOOK NOW →</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div> <!-- End col -->
+            </div>
+        </div>
+    </section>
+    <!-- Service ends -->
+
+    <!-- Special Offer Section -->
+    <section class="special-offer-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Text Left -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="section-title">Our Special Offers</h2>
+                    <p class="text-muted mb-4">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled
+                    </p>
+
+                    <!-- Stats -->
+                    <div class="row text-center bg-white rounded shadow-sm py-3 px-2 stats-box">
+                        <div class="col-4">
+                            <div>
+                                <span class="fs-5 fw-bold d-block counter" data-target="283">0</span>
+                                <small class="text-muted">Happy Clients</small>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div>
+                                <span class="fs-5 fw-bold d-block counter" data-target="432">0</span>
+                                <small class="text-muted">Win Awards</small>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div>
+                                <span class="fs-5 fw-bold d-block counter" data-target="545">0</span>
+                                <small class="text-muted">Our Trainer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Right -->
+                <div class="col-lg-6 text-center">
+                    <div class="offer-img-wrapper position-relative d-inline-block">
+                        <img src="./img/Ellipse 7.png" alt="Brown Shape" class="img-fluid bg-shape">
+                        <img src="./img/Mask Group.png" alt="Offer" class="img-fluid main-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Happy clients ends -->
+
+    <!-- Testimonial section -->
+    <section class="testimonial-section">
+        <div class="container">
+            <h2 class="testimonial-title">What Our Clients Say</h2>
+            <div class="swiper testimonialSwiper">
+                <div class="swiper-wrapper">
+                    <!-- Example Slide -->
+                    <div class="swiper-slide testimonial-card">
+                        <img src="./img/quotation.png" class="testimonial-avatar" alt="Client 1" />
+                        <div class="testimonial-name">John Doe</div>
+                        <div class="testimonial-text">
+                            “Amazing experience! Very professional and kind staff. Highly recommended.”
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+
+                    <div class="swiper-slide testimonial-card">
+                        <img src="./img/quotation.png" class="testimonial-avatar" alt="Client 1" />
+                        <div class="testimonial-name">John Doe</div>
+                        <div class="testimonial-text">
+                            “Amazing experience! Very professional and kind staff. Highly recommended.”
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+
+                    <div class="swiper-slide testimonial-card">
+                        <img src="./img/quotation.png" class="testimonial-avatar" alt="Client 1" />
+                        <div class="testimonial-name">John Doe</div>
+                        <div class="testimonial-text">
+                            “Amazing experience! Very professional and kind staff. Highly recommended.”
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+
+                    <div class="swiper-slide testimonial-card">
+                        <img src="./img/quotation.png" class="testimonial-avatar" alt="Client 1" />
+                        <div class="testimonial-name">John Doe</div>
+                        <div class="testimonial-text">
+                            “Amazing experience! Very professional and kind staff. Highly recommended.”
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+
+                    <div class="swiper-slide testimonial-card">
+                        <img src="./img/quotation.png" class="testimonial-avatar" alt="Client 1" />
+                        <div class="testimonial-name">John Doe</div>
+                        <div class="testimonial-text">
+                            “Amazing experience! Very professional and kind staff. Highly recommended.”
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+
+                    <div class="swiper-slide testimonial-card">
+                        <img src="./img/quotation.png" class="testimonial-avatar" alt="Client 1" />
+                        <div class="testimonial-name">John Doe</div>
+                        <div class="testimonial-text">
+                            “Amazing experience! Very professional and kind staff. Highly recommended.”
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+
+                    <div class="swiper-slide testimonial-card">
+                        <img src="./img/quotation.png" class="testimonial-avatar" alt="Client 1" />
+                        <div class="testimonial-name">John Doe</div>
+                        <div class="testimonial-text">
+                            “Amazing experience! Very professional and kind staff. Highly recommended.”
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+
+                    <div class="swiper-slide testimonial-card">
+                        <img src="./img/quotation.png" class="testimonial-avatar" alt="Client 1" />
+                        <div class="testimonial-name">John Doe</div>
+                        <div class="testimonial-text">
+                            “Amazing experience! Very professional and kind staff. Highly recommended.”
+                        </div>
+                        <div class="testimonial-rating">★★★★★</div>
+                    </div>
+                    <!-- Repeat for 8 total slides -->
+                </div>
+                <!-- Arrows -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial ends -->
+
+    <!-- Footer starts -->
+   <section class="grofooter-section">
+      <div class="grofooter-container">
+         <!-- Column 1: Logo + Tagline -->
+         <div class="grofooter-brand">
+            <img src="img/grohair/logo-removebg-preview.png" alt="GroHair Logo" class="grofooter-logo" />
+            <p class="grofooter-tagline">Restore your confidence today with our expert hair restoration
+               solutions.<br>Book your consultation now!</p>
+         </div>
+
+         <!-- Column 2: Contact -->
+         <div class="grofooter-contact">
+            <h3 class="grofooter-heading">Contact</h3>
+            <p>SASVATRASHA ENTERPRISE<br>
+               2nd Floor, No 81/3/2, L.R. Towers, Begur Hobli Bannerghatta Road, Above Anand Sweets, Hulimavu,<br>
+               Bengaluru, Bengaluru Urban, Karnataka, 560076
+            </p>
+
+            <div class="grofooter-contact-line">
+               <span class="grofooter-icon">📞</span>
+               <a href="tel:+919585656789" class="grofooter-link">(+91)95856 56789</a>
+            </div>
+
+            <div class="grofooter-contact-line">
+               <span class="grofooter-icon">📧</span>
+               <a href="mailto:customercare@adgrohairclinicbannerghatta.in" class="grofooter-link">
+                  customercare@adgrohairclinicbannerghatta.in
+               </a>
+            </div>
+         </div>
+
+
+         <!-- Column 3: Quick Links -->
+         <div class="grofooter-links">
+            <h3 class="grofooter-heading">Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="appointment.html">Book Appointment</a>
+            <!-- <a href="#">Testimonials</a> -->
+            <!-- <a href="#">FAQs</a> -->
+         </div>
+
+         <!-- Column 4: Locations (Map Embed) -->
+         <div class="grofooter-map">
+            <h3 class="grofooter-heading">Locations</h3>
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991415.0136599662!2d75.15667095625001!3d12.8766694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6b6b4b14b861%3A0x5ee05482ebf7ff14!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Bannerghatta!5e0!3m2!1sen!2sin!4v1750425113169!5m2!1sen!2sin"
+               width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+               referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+      </div>
+   </section>
+
+   <!-- Footer End -->
+
+    <!-- Include libraries LAST -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+
+    <!-- Then initialize Swiper AFTER DOM is ready -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new Swiper(".popularSwiper", {
+                slidesPerView: 'auto',
+                spaceBetween: 20,
+                navigation: {
+                    nextEl: ".treatments-next",
+                    prevEl: ".treatments-prev",
+                },
+            });
+        });
+    </script>
+
+
+    <script>
+        const services = {
+            "Scalp MicroPigmentation": {
+                img: "https://via.placeholder.com/300x300.png?text=Scalp+MicroPigmentation",
+                price: "₹2000 - ₹6000",
+                desc: "A non-surgical hair loss solution that gives the appearance of hair follicles using pigment."
+            },
+            "Eyebrow Transplantation": {
+                img: "https://via.placeholder.com/300x300.png?text=Eyebrow+Transplantation",
+                price: "₹3000 - ₹8000",
+                desc: "A cosmetic procedure to restore and shape thinning or absent eyebrows."
+            },
+            "Stem X Pro": {
+                img: "https://via.placeholder.com/300x300.png?text=Stem+X+Pro",
+                price: "₹2500 - ₹7000",
+                desc: "Advanced stem cell-based solution for scalp and hair rejuvenation."
+            },
+            "Meso Therapy": {
+                img: "https://via.placeholder.com/300x300.png?text=Meso+Therapy",
+                price: "₹1500 - ₹4500",
+                desc: "Micro-injections that deliver active ingredients directly into scalp skin."
+            },
+            "Oxygen Laser Therapy": {
+                img: "https://via.placeholder.com/300x300.png?text=Oxygen+Laser+Therapy",
+                price: "₹3500 - ₹9000",
+                desc: "Non-invasive laser oxygen treatment to revitalize scalp cells and improve growth."
+            },
+            "Skin Brightening Treatment": {
+                img: "https://via.placeholder.com/300x300.png?text=Skin+Brightening",
+                price: "₹2000 - ₹5000",
+                desc: "Advanced treatments to reduce pigmentation and even skin tone."
+            },
+            "Q-Switch": {
+                img: "https://via.placeholder.com/300x300.png?text=Q-Switch",
+                price: "₹2500 - ₹6000",
+                desc: "Laser technology used for pigmentation, freckles, and tattoo removal."
+            },
+            "Hydra Facial": {
+                img: "https://via.placeholder.com/300x300.png?text=Hydra+Facial",
+                price: "₹3000 - ₹6500",
+                desc: "Deep cleansing and hydration facial using vortex technology."
+            },
+            "Laser Hair Removal": {
+                img: "https://via.placeholder.com/300x300.png?text=Laser+Hair+Removal",
+                price: "₹3500 - ₹9000",
+                desc: "Effective and long-lasting solution to remove unwanted hair."
+            },
+            "RF Anti Aging Facial": {
+                img: "https://via.placeholder.com/300x300.png?text=RF+Anti+Aging",
+                price: "₹4000 - ₹10000",
+                desc: "Radio Frequency-based skin tightening and anti-aging therapy."
+            },
+            "Botox": {
+                img: "https://via.placeholder.com/300x300.png?text=Botox",
+                price: "₹5000 - ₹15000",
+                desc: "Wrinkle reduction treatment that smoothens fine lines."
+            },
+            "Microblading": {
+                img: "https://via.placeholder.com/300x300.png?text=Microblading",
+                price: "₹3000 - ₹8000",
+                desc: "Semi-permanent makeup technique to enhance eyebrows."
+            },
+            "Wart Removal": {
+                img: "https://via.placeholder.com/300x300.png?text=Wart+Removal",
+                price: "₹1000 - ₹3000",
+                desc: "Safe and effective methods to remove skin warts and tags."
+            }
+        };
+
+        const tabs = document.querySelectorAll(".service-tab");
+        const img = document.getElementById("serviceImg");
+        const title = document.getElementById("serviceTitle");
+        const price = document.getElementById("servicePrice");
+        const desc = document.getElementById("serviceDesc");
+
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+                tabs.forEach(t => t.classList.remove("active"));
+                tab.classList.add("active");
+
+                const serviceName = tab.textContent;
+                const data = services[serviceName];
+
+                img.src = data.img;
+                title.textContent = serviceName;
+                price.textContent = data.price;
+                desc.textContent = data.desc;
+            });
+        });
+    </script>
+
+    <script>
+        function animateCounter(counter) {
+            const target = +counter.getAttribute("data-target");
+            const speed = 200;
+            const increment = Math.ceil(target / speed);
+
+            let count = 0;
+            const update = () => {
+                count += increment;
+                if (count < target) {
+                    counter.textContent = count + "+";
+                    requestAnimationFrame(update);
+                } else {
+                    counter.textContent = target + "+";
+                }
+            };
+            update();
+        }
+
+        let hasAnimated = false;
+
+        window.addEventListener("scroll", () => {
+            const statsBox = document.querySelector(".stats-box");
+            if (!statsBox || hasAnimated) return;
+
+            const boxTop = statsBox.getBoundingClientRect().top;
+            const isVisible = boxTop < window.innerHeight - 100;
+
+            if (isVisible) {
+                document.querySelectorAll(".counter").forEach(animateCounter);
+                hasAnimated = true;
+            }
+        });
+    </script>
+
+    <script>
+        const swiper = new Swiper('.mySwiper', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            breakpoints: {
+                0: { slidesPerView: 1 },
+                768: { slidesPerView: 2 },
+                992: { slidesPerView: 3 }
+            }
+        });
+
+
+        var popularSwiper = new Swiper(".popularSwiper", {
+            slidesPerView: 'auto',
+            spaceBetween: 20,
+            navigation: {
+                nextEl: '.treatments-next',
+                prevEl: '.treatments-prev',
+            },
+        });
+
+    </script>
+
+    <script>
+        const testimonialSwiper = new Swiper(".testimonialSwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                576: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                992: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 4,
+                },
+            },
+        });
+    </script>
+
+</body>
+
+</html>
