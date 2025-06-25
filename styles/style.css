@@ -6,25 +6,56 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  color: #000;
+.fixed-header-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+body {
+  padding-top: 120px; 
+}
+
 
 /* Top Header */
 .top-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ff8a88a4;
+  background-color: #ffc5c4a4;
   padding: 8px 20px;
   font-size: 14px;
   border-bottom: 1px solid #eee;
+  flex-wrap: wrap;
 }
 
 .top-header i {
   margin-right: 6px;
   color: #EA2127;
 }
+
+.left-contact {
+  color: #000;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: #EA2127;
+  margin-left: 12px;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
 
 /* Main Header */
 .main-header {
@@ -97,11 +128,12 @@ body {
     padding: 15px 0;
   }
 
-  .top-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-    display: none;
+ .top-header {
+   display: none;
+  }
+
+  .social-icons {
+    margin-top: 5px;
   }
 
   .main-header {
@@ -136,6 +168,7 @@ body {
     gap: 22px;
   }
 }
+
 
 /* Hero Section starts */
 .hero-section {
@@ -1235,7 +1268,7 @@ p.section-subtitle {
 
 /* Contact page */
 
-.container {
+.contact-container {
   width: 90%;
   max-width: 1200px;
   margin: auto;
