@@ -149,7 +149,30 @@
         </div>
     </section>
 
+     <div class="grofooter-bottom">
+  <p>
+    &copy; <span id="currentYear"></span> GroHair & GloSkin. All rights reserved.
+    Website created by
+    <a href="https://aradiscover.com" target="_blank" class="ara-link">
+      ARA Discover Technologies - A unit of ARA Discoveries Pvt. Ltd.
+    </a>
+  </p>
+</div>
+
     <!-- Footer End -->
+
+     <!-- Include libraries LAST -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
 
     <script>
         document.getElementById('contactForm').addEventListener('submit', function (e) {
