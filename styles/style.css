@@ -4,6 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+   scrollbar-width: thin;
+  scrollbar-color: #ec2024 #f1f1f1;
 }
 
 .fixed-header-wrapper {
@@ -18,7 +20,6 @@
 body {
   padding-top: 120px; 
 }
-
 
 /* Top Header */
 .top-header {
@@ -88,6 +89,23 @@ body {
   font-size: 17px;
   transition: color 0.3s ease;
 }
+
+.nav-links a.active {
+  color: #EA2127;
+  font-weight: 600;
+  position: relative;
+}
+
+.nav-links a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #EA2127;
+}
+
 
 .nav-links a:hover {
   color: #EA2127;
@@ -527,7 +545,9 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 15px;
+   padding-top: 90px;
 }
+
 
 h2.section-title {
   text-align: center;
@@ -648,6 +668,11 @@ p.section-subtitle {
     font-size: 0.9rem;
     padding: 8px 14px;
   }
+
+  .service-container{
+    padding: 30px 20px;
+  }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -788,7 +813,7 @@ p.section-subtitle {
 }
 
 .popularSwiper .swiper-slide {
-  width: 260px;
+  width: 300px;
   /* adjust card width */
   margin-right: 20px;
 }
@@ -830,6 +855,10 @@ p.section-subtitle {
   .popular-treatments .col-lg-4 {
     width: 100% !important;
     max-width: 100% !important;
+  }
+
+  .popular-treatments{
+    padding: 20px 20px;
   }
 
   .popular-treatments .row {
@@ -1499,3 +1528,30 @@ p.section-subtitle {
 }
 
 /* Faq ends */
+
+/* Secondary Footer */
+
+.grofooter-bottom {
+  background-color: #ec2024;
+  color: #fff;
+  text-align: center;
+  padding: 10px 10px;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.grofooter-bottom p{
+  margin-bottom: 0;
+}
+
+.grofooter-bottom a.ara-link {
+  color: #fff; /* or your brand red */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.grofooter-bottom a.ara-link:hover {
+  text-decoration: underline;
+}
+
+/* Secondary footer ends */
