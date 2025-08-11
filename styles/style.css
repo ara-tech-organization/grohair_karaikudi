@@ -18,7 +18,7 @@
 }
 
 body {
-  padding-top: 120px; 
+  padding-top: 120px;
 }
 
 /* Top Header */
@@ -111,6 +111,25 @@ body {
   color: #EA2127;
 }
 
+
+.btn-book {
+  background-color: #EA2127;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-book:hover {
+  background-color: #EA2127;
+}
+
+.mobile-only{
+  display: none;
+}
+
 /* Hamburger */
 .hamburger {
   display: none;
@@ -122,23 +141,36 @@ body {
 
 /* <768px: Hamburger menu active */
 @media (max-width: 767.98px) {
+   .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 20px;
+    transform: none;
+    text-align: center;
+    z-index: 99;
+  }
+
   .hamburger {
     display: block;
     margin-top: 20px;
   }
 
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 15px;
-    gap: 20px;
-    background-color: #fff;
-    font-size: 18px;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
-    padding: 0 0;
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: inline-block !important;
+    margin-top: 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
   }
 
   .nav-links.show {
@@ -1301,7 +1333,7 @@ p.section-subtitle {
 /* Contact page */
 
 .contact-hero {
-  background-image: url('../img/bakground.jpg'); /* Replace with your actual image path */
+  background-image: url('/img/bakground.jpg'); /* Replace with your actual image path */
   background-size: cover;
   background-position: center;
   padding: 40px 10px 0px 10px;
@@ -1497,8 +1529,9 @@ p.section-subtitle {
 
 /* Responsive */
 @media (max-width: 992px) {
+
   .contact-wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .contact-info,
@@ -1627,4 +1660,194 @@ p.section-subtitle {
 }
 
 /* Secondary footer ends */
+
+
+
+/* Thankyou------------------------------------------- */
+/* Card style */
+.thank-you-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thank-you-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.thank-you-card h1 {
+  color: #28a745;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.thank-you-card p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  background-color: #28a745;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
+    .book-section {
+      /* margin: 100px 20px; */
+      min-height: 100vh;
+      background: url('/img/carousel-1.png') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .book-form-wrapper {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 40px;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .book-form-wrapper h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 28px;
+      font-weight: bold;
+      line-height: 1.4;
+      color: white !important;
+    }
+
+    .book-form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .book-input,
+    .book-select {
+      flex: 1 1 calc(50% - 10px);
+      padding: 12px 15px;
+      background: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .book-input::placeholder,
+    .book-select {
+      color: #ddd;
+    }
+
+    .book-input[type="date"],
+    .book-input[type="time"] {
+      color-scheme: dark;
+    }
+
+    .book-button-wrapper {
+      flex: 1 1 100%;
+      text-align: center;
+    }
+
+    .book-btn {
+      background-color: #ff2f3b;
+      border: none;
+      padding: 12px 30px;
+      font-size: 16px;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .book-btn:hover {
+      background-color: #d12630;
+    }
+
+    /* Tagline above heading */
+    .book-top-tag {
+      position: absolute;
+      top: 30px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .book-top-tag span {
+      background-color: #ff2f3b;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .book-top-tag h1 {
+      color: #111;
+      margin-top: 10px;
+      font-size: 26px;
+    }
+.book-select {
+  flex: 1 1 calc(50% - 10px);
+  padding: 12px 15px;
+  /* background-color: #000 !important;            */
+  color: #fff !important;                      /* White text */
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  background-blend-mode: difference;
+  cursor: pointer;
+}
+
+
+.book-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ff2f3b; /* That punchy hot pink/red accent */
+}
+
+.book-select option {
+  background-color: #000 !important;           /* Forces dark dropdown list */
+  color: #fff !important;
+}
+
+    @media (max-width: 600px) {
+      .book-input,
+      .book-select {
+        flex: 1 1 100%;
+      }
+    }
 

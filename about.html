@@ -1,327 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Advanced GroHair and GloSkin</title>
-    <link rel="shortcut icon" href="./img/hair.png" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-</head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NLBPV9N3");
+    </script>
+    <!-- End Google Tag Manager -->
 
-<body>
-     <!-- Fixed Header Wrapper -->
+    <link rel="shortcut icon" href="./img/hair.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "1101899361295319");
+      fbq("track", "PageView");
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=1101899361295319&ev=PageView&noscript=1"
+      />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "1142570597698056");
+      fbq("track", "PageView");
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=1142570597698056&ev=PageView&noscript=1"
+      />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NLBPV9N3"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Fixed Header Wrapper -->
     <div class="fixed-header-wrapper">
-        <!-- Top Header -->
-        <!-- Top Header -->
-        <div class="top-header">
-            <div class="left-contact">
-                <i class="fas fa-envelope"></i> karaikudi@adgrohair.com &nbsp; | &nbsp;
-                <i class="fas fa-phone"></i> +91 95751 56789
-            </div>
-            <div class="social-icons">
-                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
-            </div>
+      <!-- Top Header -->
+      <!-- Top Header -->
+      <div class="top-header">
+        <div class="left-contact">
+          <i class="fas fa-envelope"></i>adgrohairgloskinkaraikudi@gmail.com
+          &nbsp; | &nbsp; <i class="fas fa-phone"></i> +91 95751 56789
+        </div>
+        <div class="social-icons">
+          <a href="https://instagram.com" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://youtube.com" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+
+      <!-- Main Header -->
+      <header class="main-header">
+        <div class="logo">
+          <img src="./img/Logo-1.jpeg" alt="Logo" width="180px" />
         </div>
 
+        <!-- Centered Nav -->
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="about.html" class="active">About</a>
+          <a href="service.html">Services</a>
+          <a href="contact.html">Contact</a>
+          <a href="Booking.html" class="btn-book mobile-only">Book Now</a>
+        </nav>
 
-        <!-- Main Header -->
-        <header class="main-header">
-            <div class="logo"><img src="./img/Logo-1.jpeg" alt="Logo" width="180px"></div>
+        <!-- Book Now Button (Desktop Only) -->
+        <div class="book-now desktop-only">
+          <a href="Booking.html" class="btn-book">Book Now</a>
+        </div>
 
-            <!-- Hamburger Icon -->
-            <div class="hamburger" id="hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
-
-            <nav class="nav-links" id="navLinks">
-                <a href="index.html">Home</a>
-                <a href="about.html" class="active">About</a>
-                <a href="service.html">Services</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
+        <!-- Hamburger Icon (for mobile) -->
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </header>
     </div>
 
     <!-- About section starts -->
     <section class="spa-section">
-        <div class="spa-container">
-            <!-- Left Image with Brown Box -->
-            <div class="spa-image-box">
-                <div class="image-wrapper">
-                    <img src="./img/about-img.png" alt="Spa Treatment" />
-                </div>
-            </div>
-
-            <!-- Right Content -->
-            <div class="spa-content">
-                <p class="sub-title">We Provide</p>
-                <h2>Welcome to Advanced GroHair & GloSkin Karaikudi</h2>
-                <p class="intro">
-                    At Advanced GroHair & GloSkin Karaikudi, we combine clinical excellence with a relaxing environment to offer
-                    advanced hair restoration and skincare treatments. Whether you're looking to restore your confidence
-                    with hair therapy or rejuvenate your skin with aesthetic care, our center is designed for your
-                    complete wellness.
-                </p>
-                <p class="description">
-                    Our expert dermatologists and cosmetologists specialize in cutting-edge services like Hair
-                    Transplant, Scalp Micropigmentation, PRP, Mesotherapy, Q-Switch Laser, HydraFacial, Laser Hair
-                    Removal, and Anti-Aging treatments — all under one roof.
-                    We are committed to providing personalized treatments with proven results, using the latest
-                    FDA-approved technology in a clean, calm, and caring setting.
-                </p>
-            </div>
+      <div class="spa-container">
+        <!-- Left Image with Brown Box -->
+        <div class="spa-image-box">
+          <div class="image-wrapper">
+            <img src="./img/about-img.png" alt="Spa Treatment" />
+          </div>
         </div>
+
+        <!-- Right Content -->
+        <div class="spa-content">
+          <p class="sub-title">We Provide</p>
+          <h2>Welcome to Advanced GroHair & GloSkin Karaikudi</h2>
+          <p class="intro">
+            At Advanced GroHair & GloSkin Karaikudi, we combine clinical
+            excellence with a relaxing environment to offer advanced hair
+            restoration and skincare treatments. Whether you're looking to
+            restore your confidence with hair therapy or rejuvenate your skin
+            with aesthetic care, our center is designed for your complete
+            wellness.
+          </p>
+          <p class="description">
+            Our expert dermatologists and cosmetologists specialize in
+            cutting-edge services like Hair Transplant, Scalp Micropigmentation,
+            PRP, Mesotherapy, Q-Switch Laser, HydraFacial, Laser Hair Removal,
+            and Anti-Aging treatments — all under one roof. We are committed to
+            providing personalized treatments with proven results, using the
+            latest FDA-approved technology in a clean, calm, and caring setting.
+          </p>
+        </div>
+      </div>
     </section>
     <!-- About ends -->
 
     <!-- Faq starts -->
 
     <section class="faq-section">
-        <div class="faq-column">
-            <h2>FAQs for <span class="grohair">Advanced GroHair</span></h2>
-            <div class="accordion">
-                <div class="accordion-item active">
-                    <button class="accordion-header">What hair loss treatments do you offer in Karaikudi?</button>
-                    <div class="accordion-content">
-                        <p>We offer advanced treatments such as FUE Hair Transplant, PRP Therapy, Mesotherapy, Scalp
-                            Micropigmentation, and Low-Level Laser Therapy to effectively manage hair fall and promote
-                            regrowth.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">How does a hair transplant work?</button>
-                    <div class="accordion-content">
-                        <p>A hair transplant involves relocating healthy follicles from a donor area (usually the back
-                            of the scalp) to bald or thinning regions. These follicles then grow naturally and
-                            permanently.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">Is hair transplantation a permanent solution?</button>
-                    <div class="accordion-content">
-                        <p>Yes. Transplanted hair follicles are resistant to hair loss and continue growing for a
-                            lifetime, making the procedure a permanent solution for most patients.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">How long does it take to see results after a hair
-                        transplant?</button>
-                    <div class="accordion-content">
-                        <p>Initial hair growth starts around 3 to 4 months post-procedure, with full visible results
-                            achieved between 9 to 12 months.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">How does PRP therapy help with hair growth?</button>
-                    <div class="accordion-content">
-                        <p>PRP therapy uses your own blood plasma, rich in growth factors, to stimulate hair follicles
-                            and support healthy, natural hair regrowth.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">Are hair treatments safe?</button>
-                    <div class="accordion-content">
-                        <p>Yes. Our procedures are medically approved and performed under expert supervision. Side
-                            effects are typically minimal, like mild redness or short-term shedding.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">What factors affect the cost of a hair transplant?</button>
-                    <div class="accordion-content">
-                        <p>Cost depends on the number of grafts needed, the technique used, and individual scalp
-                            conditions. A personal consultation helps determine the exact estimate.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">How do I consult with the GroHair Karaikudi team?</button>
-                    <div class="accordion-content">
-                        <p>You can call, visit our Karaikudi clinic, or connect through our contact form to schedule a
-                            consultation with our specialists.</p>
-                    </div>
-                </div>
+      <div class="faq-column">
+        <h2>FAQs for <span class="grohair">Advanced GroHair</span></h2>
+        <div class="accordion">
+          <div class="accordion-item active">
+            <button class="accordion-header">
+              What hair loss treatments do you offer in Karaikudi?
+            </button>
+            <div class="accordion-content">
+              <p>
+                We offer advanced treatments such as FUE Hair Transplant, PRP
+                Therapy, Mesotherapy, Scalp Micropigmentation, and Low-Level
+                Laser Therapy to effectively manage hair fall and promote
+                regrowth.
+              </p>
             </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              How does a hair transplant work?
+            </button>
+            <div class="accordion-content">
+              <p>
+                A hair transplant involves relocating healthy follicles from a
+                donor area (usually the back of the scalp) to bald or thinning
+                regions. These follicles then grow naturally and permanently.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Is hair transplantation a permanent solution?
+            </button>
+            <div class="accordion-content">
+              <p>
+                Yes. Transplanted hair follicles are resistant to hair loss and
+                continue growing for a lifetime, making the procedure a
+                permanent solution for most patients.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              How long does it take to see results after a hair transplant?
+            </button>
+            <div class="accordion-content">
+              <p>
+                Initial hair growth starts around 3 to 4 months post-procedure,
+                with full visible results achieved between 9 to 12 months.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              How does PRP therapy help with hair growth?
+            </button>
+            <div class="accordion-content">
+              <p>
+                PRP therapy uses your own blood plasma, rich in growth factors,
+                to stimulate hair follicles and support healthy, natural hair
+                regrowth.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">Are hair treatments safe?</button>
+            <div class="accordion-content">
+              <p>
+                Yes. Our procedures are medically approved and performed under
+                expert supervision. Side effects are typically minimal, like
+                mild redness or short-term shedding.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              What factors affect the cost of a hair transplant?
+            </button>
+            <div class="accordion-content">
+              <p>
+                Cost depends on the number of grafts needed, the technique used,
+                and individual scalp conditions. A personal consultation helps
+                determine the exact estimate.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              How do I consult with the GroHair Karaikudi team?
+            </button>
+            <div class="accordion-content">
+              <p>
+                You can call, visit our Karaikudi clinic, or connect through our
+                contact form to schedule a consultation with our specialists.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="faq-column">
-            <h2>FAQs for <span class="gloskin">Advanced GloSkin</span></h2>
-            <div class="accordion">
-                <div class="accordion-item active">
-                    <button class="accordion-header">What does a Advanced GloSkin facial treatment include?</button>
-                    <div class="accordion-content">
-                        <p>Our facial treatments include deep cleansing, exfoliation, hydration, and rejuvenation — all
-                            designed to improve skin clarity and radiance.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">How often should I get a facial at Advanced GloSkin?</button>
-                    <div class="accordion-content">
-                        <p>For best results, we recommend a facial every 3 to 4 weeks to maintain healthy, glowing skin
-                            and prevent common concerns like dullness or breakouts.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">Are your treatments suitable for sensitive skin?</button>
-                    <div class="accordion-content">
-                        <p>Yes. All our skin care solutions are customized to match your skin type, including sensitive,
-                            acne-prone, and dry skin.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">Do you treat acne, pigmentation, and dull skin?</button>
-                    <div class="accordion-content">
-                        <p>Absolutely. We offer specialized treatments like Q-Switch laser, HydraFacial, and chemical
-                            peels to address acne, pigmentation, uneven tone, and skin dullness.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">Is laser hair removal available in Karaikudi?</button>
-                    <div class="accordion-content">
-                        <p>Yes, we use FDA-approved laser technology for safe and effective long-term hair reduction for
-                            all skin types.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">How many sessions are required for laser hair removal?</button>
-                    <div class="accordion-content">
-                        <p>Typically, 6 to 8 sessions are recommended for lasting results, depending on your skin tone,
-                            hair thickness, and treatment area.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">What anti-aging treatments do you offer?</button>
-                    <div class="accordion-content">
-                        <p>We provide RF facials, Botox, collagen therapy, and skin tightening procedures to reduce fine
-                            lines and restore youthful skin.</p>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <button class="accordion-header">How can I start a consultation at Advanced GloSkin Karaikudi?</button>
-                    <div class="accordion-content">
-                        <p>You can visit our Karaikudi clinic directly or contact us for a skin analysis. Our team will
-                            recommend a personalized treatment plan.</p>
-                    </div>
-                </div>
+      <div class="faq-column">
+        <h2>FAQs for <span class="gloskin">Advanced GloSkin</span></h2>
+        <div class="accordion">
+          <div class="accordion-item active">
+            <button class="accordion-header">
+              What does a Advanced GloSkin facial treatment include?
+            </button>
+            <div class="accordion-content">
+              <p>
+                Our facial treatments include deep cleansing, exfoliation,
+                hydration, and rejuvenation — all designed to improve skin
+                clarity and radiance.
+              </p>
             </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              How often should I get a facial at Advanced GloSkin?
+            </button>
+            <div class="accordion-content">
+              <p>
+                For best results, we recommend a facial every 3 to 4 weeks to
+                maintain healthy, glowing skin and prevent common concerns like
+                dullness or breakouts.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Are your treatments suitable for sensitive skin?
+            </button>
+            <div class="accordion-content">
+              <p>
+                Yes. All our skin care solutions are customized to match your
+                skin type, including sensitive, acne-prone, and dry skin.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Do you treat acne, pigmentation, and dull skin?
+            </button>
+            <div class="accordion-content">
+              <p>
+                Absolutely. We offer specialized treatments like Q-Switch laser,
+                HydraFacial, and chemical peels to address acne, pigmentation,
+                uneven tone, and skin dullness.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Is laser hair removal available in Karaikudi?
+            </button>
+            <div class="accordion-content">
+              <p>
+                Yes, we use FDA-approved laser technology for safe and effective
+                long-term hair reduction for all skin types.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              How many sessions are required for laser hair removal?
+            </button>
+            <div class="accordion-content">
+              <p>
+                Typically, 6 to 8 sessions are recommended for lasting results,
+                depending on your skin tone, hair thickness, and treatment area.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              What anti-aging treatments do you offer?
+            </button>
+            <div class="accordion-content">
+              <p>
+                We provide RF facials, Botox, collagen therapy, and skin
+                tightening procedures to reduce fine lines and restore youthful
+                skin.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              How can I start a consultation at Advanced GloSkin Karaikudi?
+            </button>
+            <div class="accordion-content">
+              <p>
+                You can visit our Karaikudi clinic directly or contact us for a
+                skin analysis. Our team will recommend a personalized treatment
+                plan.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Faq ends -->
 
-
-
-     <!-- Footer starts -->
+    <!-- Footer starts -->
     <section class="grofooter-section">
-        <div class="grofooter-container">
-            <!-- Column 1: Logo + Tagline -->
-            <div class="grofooter-brand">
-                <img src="./img/Logo-1.jpeg" alt="GroHair Logo" class="grofooter-logo" />
-                <p class="grofooter-tagline">Reveal your best self with advanced hair and skin treatments tailored just for you.<br>Schedule your consultation now!</p>
-            </div>
-
-            <!-- Column 2: Contact -->
-            <div class="grofooter-contact">
-                <h3 class="grofooter-heading">Contact</h3>
-                <p> KO City Tower,<br>
-                    18, 7th St, TT Nagar, Sekkalai, Karaikudi, Tamil Nadu 630001
-                </p>
-
-                <div class="grofooter-contact-line">
-                    <span class="grofooter-icon">📞</span>
-                    <a href="tel:+919575156789" class="grofooter-link">(+91)95751 56789</a>
-                </div>
-
-                <div class="grofooter-contact-line">
-                    <span class="grofooter-icon">📧</span>
-                    <a href="mailto:karaikudi@adgrohair.com" class="grofooter-link">
-                        karaikudi@adgrohair.com
-                    </a>
-                </div>
-            </div>
-
-
-            <!-- Column 3: Quick Links -->
-            <div class="grofooter-links">
-                <h3 class="grofooter-heading">Quick Links</h3>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="service.html">Services</a>
-                <a href="contact.html">Contact</a>
-                <!-- <a href="#">Testimonials</a> -->
-                <!-- <a href="#">FAQs</a> -->
-            </div>
-
-            <!-- Column 4: Locations (Map Embed) -->
-            <div class="grofooter-map">
-                <h3 class="grofooter-heading">Locations</h3>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.911246674422!2d78.77599377450929!3d10.074092171756496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00679fa500a599%3A0x879cac9abb79079c!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Karaikudi!5e1!3m2!1sen!2sin!4v1750762336468!5m2!1sen!2sin"
-                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+      <div class="grofooter-container">
+        <!-- Column 1: Logo + Tagline -->
+        <div class="grofooter-brand">
+          <img
+            src="./img/Logo-1.jpeg"
+            alt="GroHair Logo"
+            class="grofooter-logo"
+          />
+          <p class="grofooter-tagline">
+            Reveal your best self with advanced hair and skin treatments
+            tailored just for you.<br />Schedule your consultation now!
+          </p>
         </div>
+
+        <!-- Column 2: Contact -->
+        <div class="grofooter-contact">
+          <h3 class="grofooter-heading">Contact</h3>
+          <p>
+            KO City Tower,<br />
+            18, 7th St, TT Nagar, Sekkalai, Karaikudi, Tamil Nadu 630001
+          </p>
+
+          <div class="grofooter-contact-line">
+            <span class="grofooter-icon">📞</span>
+            <a href="tel:+919575156789" class="grofooter-link"
+              >(+91)95751 56789</a
+            >
+          </div>
+
+          <div class="grofooter-contact-line">
+            <span class="grofooter-icon">📧</span>
+            <a href="mailto:karaikudi@adgrohair.com" class="grofooter-link">
+              adgrohairgloskinkaraikudi@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 3: Quick Links -->
+        <div class="grofooter-links">
+          <h3 class="grofooter-heading">Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="service.html">Services</a>
+          <a href="contact.html">Contact</a>
+          <!-- <a href="#">Testimonials</a> -->
+          <!-- <a href="#">FAQs</a> -->
+        </div>
+
+        <!-- Column 4: Locations (Map Embed) -->
+        <div class="grofooter-map">
+          <h3 class="grofooter-heading">Locations</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.911246674422!2d78.77599377450929!3d10.074092171756496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00679fa500a599%3A0x879cac9abb79079c!2sAdvanced%20GroHair%20%26%20GloSkin%20-%20Karaikudi!5e1!3m2!1sen!2sin!4v1750762336468!5m2!1sen!2sin"
+            width="100%"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
     </section>
 
-     <div class="grofooter-bottom">
-  <p>
-    &copy; <span id="currentYear"></span> Advanced GroHair & GloSkin. All rights reserved.
-    Website created by
-    <a href="https://discovertechnologies.co/" target="_blank" class="ara-link">
-      ARA Discover Technologies - A unit of ARA Discoveries Pvt. Ltd.
-    </a>
-  </p>
-</div>
+    <div class="grofooter-bottom">
+      <p>
+        &copy; <span id="currentYear"></span> Advanced GroHair & GloSkin. All
+        rights reserved. Website created by
+        <a
+          href="https://discovertechnologies.co/"
+          target="_blank"
+          class="ara-link"
+        >
+          ARA Discover Technologies - A unit of ARA Discoveries Pvt. Ltd.
+        </a>
+      </p>
+    </div>
 
     <!-- Footer End -->
-
 
     <!-- Include libraries LAST -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
-        const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('navLinks');
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("navLinks");
 
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('show');
-        });
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
     </script>
 
     <script>
-        const accordions = document.querySelectorAll('.accordion');
+      const accordions = document.querySelectorAll(".accordion");
 
-        accordions.forEach((accordion) => {
-            const items = accordion.querySelectorAll('.accordion-item');
+      accordions.forEach((accordion) => {
+        const items = accordion.querySelectorAll(".accordion-item");
 
-            items.forEach((item) => {
-                const header = item.querySelector('.accordion-header');
+        items.forEach((item) => {
+          const header = item.querySelector(".accordion-header");
 
-                header.addEventListener('click', () => {
-                    // If the clicked item is already active, collapse it
-                    const isActive = item.classList.contains('active');
+          header.addEventListener("click", () => {
+            // If the clicked item is already active, collapse it
+            const isActive = item.classList.contains("active");
 
-                    // Remove active class from all items
-                    items.forEach((i) => i.classList.remove('active'));
+            // Remove active class from all items
+            items.forEach((i) => i.classList.remove("active"));
 
-                    // Toggle the clicked one back on only if it wasn't already active
-                    if (!isActive) {
-                        item.classList.add('active');
-                    }
-                });
-            });
+            // Toggle the clicked one back on only if it wasn't already active
+            if (!isActive) {
+              item.classList.add("active");
+            }
+          });
         });
+      });
     </script>
-</body>
-
+  </body>
 </html>
